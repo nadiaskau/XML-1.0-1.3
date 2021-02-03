@@ -1,0 +1,17 @@
+Must input elements be inside forms?
+No 
+
+Find and name the EMPTY elements.
+Base, meta, link, hr, br, param, img, area, input, col
+
+May a table be empty? May a tr?
+A table is required to have at least a tbody or tr (so no it cannot be empty)
+Nor can a tr be empty - is has to have a th or td. 
+
+What are the possible attributes of a h2?
+Core attributes: 
+Id, class, style, title 
+i18n: 
+lang, xml:lang, dir
+events:
+onlick, ondblclick, onmousedown, onmouseup, onmouseover, onmousemove, onmouseout, onkeydown, onkeypress, onkeyup
