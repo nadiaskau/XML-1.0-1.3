@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="booksCanon">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="books" type="book" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="edition" type="xs:string"/>
+                <xs:complexType name="authors">
+                    <xs:sequence>
+                        <xs:element name="author" type="author" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+                <xs:element name="publisher">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="year" type="xs:string"/>
+                            <xs:element name="place" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pages" type="xs:string"/>
+                <xs:element name="isbn" type="xs:string"/>
+                <xs:element name="price" type="xs:string"/>
+                <xs:element name="currency" type="xs:string"/>
+                <xs:complexType name="comments">
+                    <xs:sequence>
+                        <xs:element name="comment" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="author">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="firstname" type="xs:string"/>
+                <xs:element name="lastname" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    
+
+
+
+
+
+</xs:schema>
