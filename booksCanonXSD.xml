@@ -3,6 +3,7 @@
 <booksCanon xmlns="https://www.w3schools.com"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="booksCanon.xsd">
+<!-- It complains that 'booksCanon' is not a declared element, not sure how to fix-->
   <book ref="Llo08" mycanon="mdu,all">
     <title>Learn How to Build Web Sites the Right Way from Scratch</title>
     <edition>2</edition>
