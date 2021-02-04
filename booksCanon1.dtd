@@ -2,6 +2,11 @@
 
 <!ELEMENT booksCanon (book)>
 <!ELEMENT book (title, edition, authors, publisher, pages, isbn, price, currency, comments)>
+<!ATTLIST book 
+    ref PCDATA #REQUIRED
+    mycanon PCDATA  #IMPLIED
+>
+
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT edition (#PCDATA)>
 <!ELEMENT authors (author+)>

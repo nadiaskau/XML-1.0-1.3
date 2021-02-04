@@ -38,6 +38,8 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:sequence>
+            <xsd:attribute name="ref" type="xsd:string"/>
+             <xsd:attribute name="mycanon" type="xsd:string"/>
         </xs:complexType>
     </xs:element>
 
