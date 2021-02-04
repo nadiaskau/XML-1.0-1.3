@@ -1,11 +1,9 @@
-<!DOCTYPE bookCanon [
 
-<!ELEMENT booksCanon (book)>
+<!ELEMENT booksCanon (book*)>
 <!ELEMENT book (title, edition, authors, publisher, pages, isbn, price, currency, comments)>
-<!ATTLIST book 
-    ref PCDATA #REQUIRED
-    mycanon PCDATA  #IMPLIED
->
+
+<!ATTLIST book ref CDATA #REQUIRED
+    mycanon CDATA  #IMPLIED>
 
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT edition (#PCDATA)>
@@ -23,5 +21,3 @@
 <!ELEMENT currency (#PCDATA)>
 <!ELEMENT comments (comment*)>
 <!ELEMENT comment (#PCDATA)>
-
-]>

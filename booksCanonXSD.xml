@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<booksCanon xmlns="https://www.w3schools.com"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="booksCanon.xsd">
-<!-- It complains that 'booksCanon' is not a declared element, not sure how to fix-->
-  <book ref="Llo08" mycanon="mdu,all">
+<booksCanon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="booksCanon.xsd"/>
+<!-- Error: 
+booksCanonXSD.xml:8: parser error : Extra content at the end of the document
+  <book ref="Llo08" mycanon="mdu"> -->
+  <book ref="Llo08" mycanon="mdu">
     <title>Learn How to Build Web Sites the Right Way from Scratch</title>
     <edition>2</edition>
     <authors>

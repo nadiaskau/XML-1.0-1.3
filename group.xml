@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <group>
+        <projectmanager>Nadia</projectmanager>
+        <member>Morten</member>
+        <member>David</member>
+    </group>
+    <member>Troels</member>
+</class>
+
+<project>
+    <task>Få nu skrevet noget XML!</task>
+</project>
+
+<table>
+    <tr>
+        <td>Tabeldata</td>
+        <td>Tabeldata</td>
+    </tr>
+    <tr>
+        <td>Tabeldata</td>
+    </tr>
+</table>
